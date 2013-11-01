@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5F6E090517A6E7B9002CDCDF /* AlienAlertIcons.icns in Resources */ = {isa = PBXBuildFile; fileRef = 5F6E090417A6E7B9002CDCDF /* AlienAlertIcons.icns */; };
+		5F6E090817A6E7F9002CDCDF /* AlienAlertIcons.icns in Resources */ = {isa = PBXBuildFile; fileRef = 5F6E090717A6E7F9002CDCDF /* AlienAlertIcons.icns */; };
 		5FFF9AD817A6E45D006CE9D9 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5FFF9AD717A6E45D006CE9D9 /* Cocoa.framework */; };
 		5FFF9AE217A6E45D006CE9D9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5FFF9AE017A6E45D006CE9D9 /* InfoPlist.strings */; };
 		5FFF9AE417A6E45D006CE9D9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FFF9AE317A6E45D006CE9D9 /* main.m */; };
@@ -18,6 +20,23 @@
 		5FFF9AF817A6E45D006CE9D9 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5FFF9AD717A6E45D006CE9D9 /* Cocoa.framework */; };
 		5FFF9B0017A6E45D006CE9D9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5FFF9AFE17A6E45D006CE9D9 /* InfoPlist.strings */; };
 		5FFF9B0217A6E45D006CE9D9 /* AlienAlertTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FFF9B0117A6E45D006CE9D9 /* AlienAlertTests.m */; };
+		5FFF9B1A17A6E46B006CE9D9 /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FFF9B0C17A6E46B006CE9D9 /* FMDatabase.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		5FFF9B1B17A6E46B006CE9D9 /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FFF9B0C17A6E46B006CE9D9 /* FMDatabase.m */; };
+		5FFF9B1C17A6E46B006CE9D9 /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FFF9B0E17A6E46B006CE9D9 /* FMDatabaseAdditions.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		5FFF9B1D17A6E46B006CE9D9 /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FFF9B0E17A6E46B006CE9D9 /* FMDatabaseAdditions.m */; };
+		5FFF9B1E17A6E46B006CE9D9 /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FFF9B1017A6E46B006CE9D9 /* FMDatabasePool.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		5FFF9B1F17A6E46B006CE9D9 /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FFF9B1017A6E46B006CE9D9 /* FMDatabasePool.m */; };
+		5FFF9B2017A6E46B006CE9D9 /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FFF9B1217A6E46B006CE9D9 /* FMDatabaseQueue.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		5FFF9B2117A6E46B006CE9D9 /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FFF9B1217A6E46B006CE9D9 /* FMDatabaseQueue.m */; };
+		5FFF9B2217A6E46B006CE9D9 /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FFF9B1417A6E46B006CE9D9 /* FMResultSet.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		5FFF9B2317A6E46B006CE9D9 /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FFF9B1417A6E46B006CE9D9 /* FMResultSet.m */; };
+		5FFF9B2417A6E46B006CE9D9 /* LaunchAtLoginController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FFF9B1617A6E46B006CE9D9 /* LaunchAtLoginController.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		5FFF9B2517A6E46B006CE9D9 /* LaunchAtLoginController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FFF9B1617A6E46B006CE9D9 /* LaunchAtLoginController.m */; };
+		5FFF9B2617A6E46B006CE9D9 /* RedditBotKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FFF9B1817A6E46B006CE9D9 /* RedditBotKit.m */; };
+		5FFF9B2717A6E46B006CE9D9 /* RedditBotKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FFF9B1817A6E46B006CE9D9 /* RedditBotKit.m */; };
+		5FFF9B2817A6E46B006CE9D9 /* statusicon.png in Resources */ = {isa = PBXBuildFile; fileRef = 5FFF9B1917A6E46B006CE9D9 /* statusicon.png */; };
+		5FFF9B2917A6E46B006CE9D9 /* statusicon.png in Resources */ = {isa = PBXBuildFile; fileRef = 5FFF9B1917A6E46B006CE9D9 /* statusicon.png */; };
+		5FFF9B2B17A6E474006CE9D9 /* libsqlite3.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 5FFF9B2A17A6E474006CE9D9 /* libsqlite3.0.dylib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,6 +50,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5F6E090417A6E7B9002CDCDF /* AlienAlertIcons.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = AlienAlertIcons.icns; sourceTree = "<group>"; };
+		5F6E090717A6E7F9002CDCDF /* AlienAlertIcons.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = AlienAlertIcons.icns; sourceTree = "<group>"; };
 		5FFF9AD417A6E45D006CE9D9 /* AlienAlert.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AlienAlert.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5FFF9AD717A6E45D006CE9D9 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		5FFF9ADA17A6E45D006CE9D9 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
@@ -45,11 +66,27 @@
 		5FFF9AEA17A6E45D006CE9D9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		5FFF9AED17A6E45D006CE9D9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		5FFF9AEF17A6E45D006CE9D9 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		5FFF9AF517A6E45D006CE9D9 /* AlienAlertTests.xctest */ = {isa = PBXFileReference; explicitFileType = folder; includeInIndex = 0; path = AlienAlertTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5FFF9AF517A6E45D006CE9D9 /* AlienAlertTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AlienAlertTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5FFF9AF617A6E45D006CE9D9 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		5FFF9AFD17A6E45D006CE9D9 /* AlienAlertTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AlienAlertTests-Info.plist"; sourceTree = "<group>"; };
 		5FFF9AFF17A6E45D006CE9D9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		5FFF9B0117A6E45D006CE9D9 /* AlienAlertTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AlienAlertTests.m; sourceTree = "<group>"; };
+		5FFF9B0B17A6E46B006CE9D9 /* FMDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabase.h; sourceTree = "<group>"; };
+		5FFF9B0C17A6E46B006CE9D9 /* FMDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabase.m; sourceTree = "<group>"; };
+		5FFF9B0D17A6E46B006CE9D9 /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseAdditions.h; sourceTree = "<group>"; };
+		5FFF9B0E17A6E46B006CE9D9 /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseAdditions.m; sourceTree = "<group>"; };
+		5FFF9B0F17A6E46B006CE9D9 /* FMDatabasePool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabasePool.h; sourceTree = "<group>"; };
+		5FFF9B1017A6E46B006CE9D9 /* FMDatabasePool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabasePool.m; sourceTree = "<group>"; };
+		5FFF9B1117A6E46B006CE9D9 /* FMDatabaseQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseQueue.h; sourceTree = "<group>"; };
+		5FFF9B1217A6E46B006CE9D9 /* FMDatabaseQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseQueue.m; sourceTree = "<group>"; };
+		5FFF9B1317A6E46B006CE9D9 /* FMResultSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMResultSet.h; sourceTree = "<group>"; };
+		5FFF9B1417A6E46B006CE9D9 /* FMResultSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMResultSet.m; sourceTree = "<group>"; };
+		5FFF9B1517A6E46B006CE9D9 /* LaunchAtLoginController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LaunchAtLoginController.h; sourceTree = "<group>"; };
+		5FFF9B1617A6E46B006CE9D9 /* LaunchAtLoginController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LaunchAtLoginController.m; sourceTree = "<group>"; };
+		5FFF9B1717A6E46B006CE9D9 /* RedditBotKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RedditBotKit.h; sourceTree = "<group>"; };
+		5FFF9B1817A6E46B006CE9D9 /* RedditBotKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RedditBotKit.m; sourceTree = "<group>"; };
+		5FFF9B1917A6E46B006CE9D9 /* statusicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = statusicon.png; sourceTree = "<group>"; };
+		5FFF9B2A17A6E474006CE9D9 /* libsqlite3.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.0.dylib; path = usr/lib/libsqlite3.0.dylib; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +94,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5FFF9B2B17A6E474006CE9D9 /* libsqlite3.0.dylib in Frameworks */,
 				5FFF9AD817A6E45D006CE9D9 /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -76,6 +114,7 @@
 		5FFF9ACB17A6E45D006CE9D9 = {
 			isa = PBXGroup;
 			children = (
+				5F6E090717A6E7F9002CDCDF /* AlienAlertIcons.icns */,
 				5FFF9ADD17A6E45D006CE9D9 /* AlienAlert */,
 				5FFF9AFB17A6E45D006CE9D9 /* AlienAlertTests */,
 				5FFF9AD617A6E45D006CE9D9 /* Frameworks */,
@@ -95,6 +134,7 @@
 		5FFF9AD617A6E45D006CE9D9 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				5FFF9B2A17A6E474006CE9D9 /* libsqlite3.0.dylib */,
 				5FFF9AD717A6E45D006CE9D9 /* Cocoa.framework */,
 				5FFF9AF617A6E45D006CE9D9 /* XCTest.framework */,
 				5FFF9AD917A6E45D006CE9D9 /* Other Frameworks */,
@@ -115,10 +155,26 @@
 		5FFF9ADD17A6E45D006CE9D9 /* AlienAlert */ = {
 			isa = PBXGroup;
 			children = (
+				5F6E090417A6E7B9002CDCDF /* AlienAlertIcons.icns */,
 				5FFF9AE917A6E45D006CE9D9 /* AppDelegate.h */,
 				5FFF9AEA17A6E45D006CE9D9 /* AppDelegate.m */,
 				5FFF9AEC17A6E45D006CE9D9 /* MainMenu.xib */,
 				5FFF9AEF17A6E45D006CE9D9 /* Images.xcassets */,
+				5FFF9B0B17A6E46B006CE9D9 /* FMDatabase.h */,
+				5FFF9B0C17A6E46B006CE9D9 /* FMDatabase.m */,
+				5FFF9B0D17A6E46B006CE9D9 /* FMDatabaseAdditions.h */,
+				5FFF9B0E17A6E46B006CE9D9 /* FMDatabaseAdditions.m */,
+				5FFF9B0F17A6E46B006CE9D9 /* FMDatabasePool.h */,
+				5FFF9B1017A6E46B006CE9D9 /* FMDatabasePool.m */,
+				5FFF9B1117A6E46B006CE9D9 /* FMDatabaseQueue.h */,
+				5FFF9B1217A6E46B006CE9D9 /* FMDatabaseQueue.m */,
+				5FFF9B1317A6E46B006CE9D9 /* FMResultSet.h */,
+				5FFF9B1417A6E46B006CE9D9 /* FMResultSet.m */,
+				5FFF9B1517A6E46B006CE9D9 /* LaunchAtLoginController.h */,
+				5FFF9B1617A6E46B006CE9D9 /* LaunchAtLoginController.m */,
+				5FFF9B1717A6E46B006CE9D9 /* RedditBotKit.h */,
+				5FFF9B1817A6E46B006CE9D9 /* RedditBotKit.m */,
+				5FFF9B1917A6E46B006CE9D9 /* statusicon.png */,
 				5FFF9ADE17A6E45D006CE9D9 /* Supporting Files */,
 			);
 			path = AlienAlert;
@@ -230,8 +286,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5F6E090517A6E7B9002CDCDF /* AlienAlertIcons.icns in Resources */,
+				5F6E090817A6E7F9002CDCDF /* AlienAlertIcons.icns in Resources */,
 				5FFF9AE217A6E45D006CE9D9 /* InfoPlist.strings in Resources */,
 				5FFF9AF017A6E45D006CE9D9 /* Images.xcassets in Resources */,
+				5FFF9B2817A6E46B006CE9D9 /* statusicon.png in Resources */,
 				5FFF9AE817A6E45D006CE9D9 /* Credits.rtf in Resources */,
 				5FFF9AEE17A6E45D006CE9D9 /* MainMenu.xib in Resources */,
 			);
@@ -241,6 +300,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5FFF9B2917A6E46B006CE9D9 /* statusicon.png in Resources */,
 				5FFF9B0017A6E45D006CE9D9 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -252,8 +312,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5FFF9B1A17A6E46B006CE9D9 /* FMDatabase.m in Sources */,
+				5FFF9B2417A6E46B006CE9D9 /* LaunchAtLoginController.m in Sources */,
 				5FFF9AEB17A6E45D006CE9D9 /* AppDelegate.m in Sources */,
+				5FFF9B2217A6E46B006CE9D9 /* FMResultSet.m in Sources */,
+				5FFF9B1E17A6E46B006CE9D9 /* FMDatabasePool.m in Sources */,
+				5FFF9B2617A6E46B006CE9D9 /* RedditBotKit.m in Sources */,
 				5FFF9AE417A6E45D006CE9D9 /* main.m in Sources */,
+				5FFF9B1C17A6E46B006CE9D9 /* FMDatabaseAdditions.m in Sources */,
+				5FFF9B2017A6E46B006CE9D9 /* FMDatabaseQueue.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,7 +328,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5FFF9B2317A6E46B006CE9D9 /* FMResultSet.m in Sources */,
+				5FFF9B2117A6E46B006CE9D9 /* FMDatabaseQueue.m in Sources */,
+				5FFF9B2717A6E46B006CE9D9 /* RedditBotKit.m in Sources */,
 				5FFF9B0217A6E45D006CE9D9 /* AlienAlertTests.m in Sources */,
+				5FFF9B1F17A6E46B006CE9D9 /* FMDatabasePool.m in Sources */,
+				5FFF9B1B17A6E46B006CE9D9 /* FMDatabase.m in Sources */,
+				5FFF9B2517A6E46B006CE9D9 /* LaunchAtLoginController.m in Sources */,
+				5FFF9B1D17A6E46B006CE9D9 /* FMDatabaseAdditions.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -384,12 +458,13 @@
 		5FFF9B0617A6E45D006CE9D9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "AlienAlert/AlienAlert-Prefix.pch";
 				INFOPLIST_FILE = "AlienAlert/AlienAlert-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx10.8;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -397,12 +472,13 @@
 		5FFF9B0717A6E45D006CE9D9 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "AlienAlert/AlienAlert-Prefix.pch";
 				INFOPLIST_FILE = "AlienAlert/AlienAlert-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx10.8;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -466,6 +542,7 @@
 				5FFF9B0717A6E45D006CE9D9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5FFF9B0817A6E45D006CE9D9 /* Build configuration list for PBXNativeTarget "AlienAlertTests" */ = {
 			isa = XCConfigurationList;
@@ -474,6 +551,7 @@
 				5FFF9B0A17A6E45D006CE9D9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
